@@ -1,34 +1,15 @@
-\documentclass[a4paper, 12pt]{proc} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    Setup                                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt]{proc}
+\usepackage{setup}
 
-% \input{~/.config/nvim/input_files_latex/packages.tex}
-\input{~/.config/nvim/input_files_latex/fonts.tex}
-\usepackage{fancyhdr}
-\usepackage{xcolor}
-\usepackage{graphicx}
-\usepackage{varwidth}
-\usepackage{multicol}
-\usepackage{csquotes}
-\usepackage[doublespacing]{setspace}
-\usepackage{ragged2e} 
-\usepackage{longtable}
-\usepackage{fmtcount}
-\usepackage{caption}
-\usepackage{wrapfig}
-\usepackage{amsmath}
-\usepackage[style=apa, backend=biber]{biblatex}
-\usepackage[german]{babel}
-\usepackage{geometry}
-\setlength{\parindent}{0pt}
-\onehalfspacing{}
-\onecolumn
-
-\pagestyle{empty}
-
-\addbibresource{~/my-library.bib}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                  Actual Doc                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \begin{center}
-    \textbf{Eigenständigkeitserklärung}
+	\textbf{Eigenständigkeitserklärung}
 \end{center}
 Ich erkläre hiermit, dass ich die vorliegende Arbeit selbständig verfasst habe,
 dass ich keine anderen als die angegebenen Hilfsmittel und Quellen benutzt
@@ -46,19 +27,19 @@ ich mir bewusst bin, dass eine Plagiatsprüfung durchgeführt wird.\\
 
 \vspace{25mm}
 \begin{minipage}{0.5\linewidth}
-    \centering
-        \begin{tabular}{@{}p{2.5in}@{}}
-            \hrulefill \\
-            Ort, Datum\\
-        \end{tabular}
+	\centering
+	\begin{tabular}{@{}p{2.5in}@{}}
+		\hrulefill \\
+		Ort, Datum \\
+	\end{tabular}
 \end{minipage}
 \vspace{25mm}
 \begin{minipage}{0.5\linewidth}
-    \centering
-        \begin{tabular}{@{}p{2.5in}@{}}
-            \hrulefill \\
-            Unterschrift\\
-        \end{tabular}
+	\centering
+	\begin{tabular}{@{}p{2.5in}@{}}
+		\hrulefill   \\
+		Unterschrift \\
+	\end{tabular}
 \end{minipage}
 
 \end{document}
